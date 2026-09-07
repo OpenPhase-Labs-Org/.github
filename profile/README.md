@@ -21,7 +21,7 @@ messages Traffic Ops products speak to *each other*, over NATS JetStream, MQTT
 and other transports. Publish/subscribe, product to product. Protobuf schemas
 plus a spec doc per subject.
 
-**[TSIGMA plugin contract](https://github.com/OpenPhase-Labs-Org/TSIGMA-Contract)** -
+**[TSIGMA plugin contract](https://github.com/OpenPhase-Labs-Org/tsigma-contract)** -
 the boundary between a TSIGMA host and the plugins it loads: decoders, ingestion
 methods, reports, notifications, auth and storage. gRPC over a subprocess plugin
 protocol, with a host-served callback plane. Host to plugin, not product to
