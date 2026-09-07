@@ -21,10 +21,11 @@ messages Traffic Ops products speak to *each other*, over NATS JetStream, MQTT
 and other transports. Publish/subscribe, product to product. Protobuf schemas
 plus a spec doc per subject.
 
-**TSIGMA plugin contract** *(not yet published)* - the boundary between a TSIGMA
-host and the plugins it loads: decoders, ingestion methods, reports,
-notifications, auth and storage. gRPC over a subprocess plugin protocol, with a
-host-served callback plane. Host to plugin, not product to product.
+**[TSIGMA plugin contract](https://github.com/OpenPhase-Labs-Org/TSIGMA-Contract)** -
+the boundary between a TSIGMA host and the plugins it loads: decoders, ingestion
+methods, reports, notifications, auth and storage. gRPC over a subprocess plugin
+protocol, with a host-served callback plane. Host to plugin, not product to
+product.
 
 If you are integrating two systems, you want OPENPHASE. If you are writing a
 plugin for TSIGMA, you want the plugin contract.
