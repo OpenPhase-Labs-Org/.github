@@ -27,7 +27,7 @@ methods, reports, notifications, auth and storage. gRPC over a subprocess plugin
 protocol, with a host-served callback plane. Host to plugin, not product to
 product.
 
-If you are integrating two systems, you want OPENPHASE. If you are writing a
+If you are integrating two systems, you want OpenPhase. If you are writing a
 plugin for TSIGMA, you want the plugin contract.
 
 ### Implementations
